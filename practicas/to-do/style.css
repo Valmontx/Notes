@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: "Poppins", sans-serif;
+    /* background-color: #fae8cd; */
+    background-image: url(./assets/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+.container-note{
+    width: 500px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column; 
+    min-width: 500px;
+    background-color:rgb(139, 114, 250);
+    border-radius: 25px;  
+    border: 2px solid rgb(65, 50, 136);
+    box-shadow: rgb(77, 77, 69) 5px 2px 2px;
+    
+}
+
+.container h1{
+    text-align: center;
+    margin-top: 30px;
+    color: #fae8cd;
+    
+}
+.container h1 img{
+   position: absolute;
+   top:50px;
+   width: 70px;
+  
+}
+.search{
+    margin-top: 20px;
+    align-self: center;
+}
+.search input{
+    margin-top: 20px;
+    width: 300px;
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid rgb(77, 77, 69);
+    text-indent: 5px;
+    background-color: #fff;
+}
+
+.li-container ul li{
+ 
+ display: flex;
+ margin-top: 25px;
+ align-items: stretch;
+    
+}
+.li-container ul{
+    margin-top: 15px;
+
+   
+}
+
+
+label {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.texto-li {
+    display: flex;
+    align-items: center;
+    width: 250px;
+    text-align: left;
+    margin-right: 25px;
+    font-size: 12px;
+    margin-left: 5px;
+    font-family: "Assistant", sans-serif;
+
+}
+
+.li-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.completado{
+    text-decoration-line: line-through;
+}
+
+ .container-btn{
+    display: inline-block;
+    gap: 25px;
+} 
+.add-delete{
+    display: inline-block;
+    text-align: left;
+    width: 13px;
+    height: 13px;
+    background-size: cover;
+    border: none;
+    background-image: url(./assets/trash.png);
+    background-color: transparent;
+    cursor: pointer;
+    
+} 
+.btn-add{
+    width: 25px;
+    height: 25px;
+    background-color: transparent;
+    border-radius: 5px;
+    background-color: #f7ec59;
+    border: 1px solid rgb(77, 77, 69);
+    cursor: pointer ;
+    font-weight: bold;
+}  
+
+.add-edit{
+   display: inline-block;
+    width: 13px;
+    height: 13px;
+    background-size: contain;
+    border: none;
+    background-image: url(./assets/lapiz.png);
+    background-color: transparent;
+    cursor: pointer;
+
+}
+.empty p{
+    display: flex;
+    justify-content: center;
+    color:#302f26;
+    font-size: 12px;
+}
